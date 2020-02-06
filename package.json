@@ -1,31 +1,32 @@
 {
-  "name": "github.com/anjumzaki/pickletour-refereeapp@ahmedsaeedi",
+  "name": "refapp",
   "version": "0.0.0",
   "description": "Anjumzaki/pickleTour-RefereeApp @ Feb 5, 2020",
-  "author": null,
+  "author": "abc",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "devDependencies": {
     "babel-preset-expo": "^7.0.0"
   },
   "dependencies": {
-    "expo": "^36.0.0",
-    "react": "16.9.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "@react-native-community/async-storage": "^1.7.1",
+    "@react-native-community/datetimepicker": "2.1.0",
     "axios": "^0.19.0",
+    "expo": "^36.0.0",
     "firebase": "^7.6.1",
     "native-base": "^2.13.8",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
     "react-native-btr": "^1.1.5",
-    "react-navigation": "^4.0.10",
     "react-native-elements": "^1.2.7",
     "react-native-firebase": "^5.6.0",
-    "react-navigation-stack": "^1.10.3",
-    "react-native-reanimated": "^1.4.0",
-    "react-navigation-drawer": "^2.3.3",
     "react-native-gesture-handler": "^1.5.2",
-    "react-native-lightweight-responsive": "0.0.6",
-    "@react-native-community/async-storage": "^1.7.1",
     "react-native-keyboard-aware-scroll-view": "^0.9.1",
-    "react-native-screens": "^1.0.0-alpha"
+    "react-native-lightweight-responsive": "0.0.6",
+    "react-native-modal-datetime-picker": "^8.1.2",
+    "react-native-reanimated": "^1.4.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^1.10.3"
   }
 }
